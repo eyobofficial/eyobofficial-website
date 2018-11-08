@@ -11,3 +11,6 @@ services:
 
 script:
     python manage.py test
+
+env:
+    - SECRET_KEY=cem@+@8%j)_l=__&3(e41hh4ose1x-7-aaq+i&3d3l!2h2y84_
