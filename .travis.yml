@@ -13,7 +13,7 @@ services:
     - postgresql
 
 before_script:
-    - psql -c "CREATE DATABASE eyobofficial_website;" -U postgres
+    - psql -c "CREATE DATABASE eyobofficial_website;" -U eyobofficial
 
 script:
     - python manage.py makemigrations --settings=config.settings.testing
