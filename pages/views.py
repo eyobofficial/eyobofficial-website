@@ -1,9 +1,7 @@
 from django.views.generic import TemplateView
 
+from .mixins import HomePage
 
-class HomeView(TemplateView):
+
+class HomeView(HomePage, TemplateView):
     template_name = 'pages/home.html'
-
-    def get_context_data(self, **kwargs):
-        kwargs['page_title'] = 'Home'
-        return kwargs
