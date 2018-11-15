@@ -1,0 +1,4 @@
+config/static/* linguist-vendored
+pages/templates/* linguist-vendored
+accounts/templates/* linguist-vendored
+templates/* linguist-vendored
